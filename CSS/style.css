@@ -5,9 +5,10 @@
     box-sizing:content-box;
 }
 body{
-    background: #ff7e5f;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #feb47b, #ff7e5f);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #feb47b, #ff7e5f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #FF512F;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #DD2476, #FF512F);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #DD2476, #FF512F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .about_me{
@@ -48,6 +49,7 @@ margin-top: 15px;
 border-radius: 50%; /*para hacer la imagen redonda se utiliza este*/
 height: 400px;
 width: 400px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
 }
 
 .social_media{
