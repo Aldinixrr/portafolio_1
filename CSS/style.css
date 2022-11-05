@@ -1,0 +1,97 @@
+/*se quita al momento de tener finalizada la pagina los primeros 4*/
+* , html{
+    margin:0;
+    padding: 0;
+    box-sizing:content-box;
+}
+body{
+    background: #ff7e5f;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #feb47b, #ff7e5f);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #feb47b, #ff7e5f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.about_me{
+    display: flex;
+    flex-wrap:nowrap; /* no de un salto de linea*/
+    justify-content: center;
+    align-items: center;
+    border-color: black;
+    border-style: solid;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 30px;
+}
+
+h1{
+    font-family:monospace;
+    font-size: 50px;
+}
+
+h2{
+    font-family:monospace;
+    font-size: 27px;
+}
+
+h3{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+p{
+    margin-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font: size 25px;
+    font-weight: bolder;
+}
+.profile_imag{
+margin-top: 15px;
+border-radius: 50%; /*para hacer la imagen redonda se utiliza este*/
+height: 400px;
+width: 400px;
+}
+
+.social_media{
+    display: flex;
+}
+
+.network{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; /*da un enter o salto de línea*/
+    flex-direction: column;
+}
+
+a{
+    margin-top: 40px;
+    text-decoration: none;
+}
+
+.social_media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap; /*no de un salto de línea*/
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
+    margin: 10px
+}
+
+.email{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 35px;
+    background-color: white;
+    cursor:pointer; /*para que se vea la manita*/
+    border-radius: 6%;
+
+}
+.email:hover{ /*cuando pase el cursor me pondra otro colo*/
+    background: #ff4b1f;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ff9068, #ff4b1f);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ff9068, #ff4b1f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+}
